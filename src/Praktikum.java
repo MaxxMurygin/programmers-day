@@ -12,7 +12,7 @@ public class Praktikum {
     }//***End of Main
     public static boolean isLeapYear(int year) {// ***Проверка на високосность
         if (year % 4 == 0){
-            if ((year % 100 != 0) || (year % 400 == 0)){
+            if (year % 100 != 0 || year % 400 == 0){
                 return true;
             }
         }
