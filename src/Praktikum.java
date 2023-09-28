@@ -13,7 +13,6 @@ public class Praktikum {
             System.out.println("Обычный короткий год");
         }
     }//End of Main
-
     // здесь нужно определить, является ли переданный год високосным
     public static boolean isLeapYear(int year) {
         boolean isLeap = false;
