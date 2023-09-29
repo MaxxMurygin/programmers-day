@@ -6,9 +6,9 @@ public class Praktikum {
         System.out.println("Введите год:");
         int year = scanner.nextInt();
         if (isLeapYear(year)) {
-            System.out.println("Високосный");
+            System.out.println("День программиста будет 12 сентября " + year + "г.");
         } else {
-            System.out.println("Обычный короткий год");
+            System.out.println("День программиста будет 13 сентября " + year + "г.");
         }
     }//***End of Main
 
